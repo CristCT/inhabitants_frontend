@@ -1,0 +1,42 @@
+<!-- Container que contiene los inputs para registrar personas -->
+<div class="container mt-5 w-70">
+  <h2 class="text-white">Registro de Personas</h2>
+  <!-- Container de la Tabla que contiene la Lista de Personas -->
+  <div class="container mt-5 w-70 table-responsive">
+    <h2 class="text-white">Lista de Personas Registradas</h2>
+    <table class="table table-hover align-middle table-responsive">
+      <!-- table color -->
+      <thead class="table-primary">
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Edad</th>
+          <th>Piso</th>
+          <th>Departamento</th>
+          <th>Acción</th>
+        </tr>
+      </thead>
+      <tbody class="text-white">
+        <tr *ngFor="let item of personas">
+          <td>{{ item.id }}</td>
+          <td>{{ item.nombre }}</td>
+          <td>{{ item.apellido }}</td>
+          <td>{{ item.edad }}</td>
+          <td>{{ item.piso.numero }}</td>
+          <td>{{ item.departamento.numero }}</td>
+          <td>
+            <button
+              type="button"
+              class="btn btn-danger"
+              (click)="eliminar(item)"
+            >
+              <i class="bi bi-trash"></i> Eliminar
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<router-outlet></router-outlet>

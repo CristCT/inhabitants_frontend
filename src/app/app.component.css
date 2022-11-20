@@ -1,0 +1,14 @@
+.activo {
+    background-color: #dd4555;
+}
+.activo a {
+    color: rgb(255, 255, 255);
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+}
