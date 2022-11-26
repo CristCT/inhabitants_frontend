@@ -4,9 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Brief description
 
-This project consists of two parts, the [BackEnd](https://github.com/CristCT/inhabitants_backend) and the FrontEnd of the application called inhabitants, to obtain the correct operation of the application, obtain both.
-
 Inhabitants is a web application that is used for the management and control of the access of external people to a building, where we can register people to know in which part of the building they will circulate, in addition to later removing or editing their registration when leaving the building or when requesting a change.
+
+use is made of Spring Boot + JPA + PostgresSQL + Rest + Angular
 
 ## Development server
 
@@ -29,5 +29,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](https://github.com/angular/protractor).
 
 ## Further help
+
+This project consists of two parts, the [BackEnd](https://github.com/CristCT/inhabitants_backend) and the FrontEnd of the application called inhabitants, to obtain the correct operation of the application, obtain both.
 
 To get more help on the Angular CLI use `ng help` or go check out the Angular CLI README or contact me.
