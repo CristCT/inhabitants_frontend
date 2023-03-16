@@ -1,10 +1,5 @@
 # Inhabitants frontend
 
-<<<<<<< HEAD
-=======
-Code in Master branch, but read these instructions first.
-
->>>>>>> 930f307e8a91c059786443cc8f66078ac3e4cd8b
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
 ## Brief description
